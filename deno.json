@@ -3,7 +3,6 @@
   "version": "1.0.3",
   "exports": "./mod.ts",
 
-
   "tasks": {
     "doc": "deno run --allow-run=deno jsr:@sigmasd/doc-gen ./mod.ts > README.md"
   }

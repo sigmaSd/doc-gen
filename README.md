@@ -25,4 +25,3 @@ Or add a convenience task in deno.json
   "doc": "deno run -A jsr:@sigmasd/doc-gen ./entrypoint.ts > README.md"
 }
 ```
-
