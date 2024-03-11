@@ -7,6 +7,6 @@ It uses `deno doc --json` to get the needed informations
 ## Usage
 
 ```
-deno run -A jsr:@sigmasd/gen-doc entrypoint.ts > README.md
+deno run -A jsr:@sigmasd/doc-gen entrypoint.ts > README.md
 ```
 
