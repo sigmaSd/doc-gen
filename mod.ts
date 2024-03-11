@@ -23,7 +23,7 @@ Or add a convenience task in deno.json
 
 ```json
 "tasks": {
-  "doc": "deno run -A jsr:@sigmasd/doc-gen ./entrypoint.ts > README.md"
+  "doc": "deno run -A jsr:@sigmasd/doc-gen ./entrypoint.ts > README.md && deno fmt README.md"
 }
 ```
 
