@@ -2,7 +2,7 @@
   "name": "@sigmasd/doc-gen",
   "version": "2.0.0",
   "exports": "./mod.ts",
-
+  "license": "MIT",
   "tasks": {
     "doc": "deno run --allow-run=deno jsr:@sigmasd/doc-gen ./mod.ts > README.md"
   }
