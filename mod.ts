@@ -71,5 +71,9 @@ async function denoDocJson(entrypoint: string): Promise<Entry[]> {
     args: ["doc", "--json", entrypoint],
   })
     .output();
-  return JSON.parse(new TextDecoder().decode(output.stdout));
+  const result = JSON.parse(new TextDecoder().decode(output.stdout));
+  if (result.version !== 1) {
+    throw new Error("Unhadled version:", result.version);
+  }
+  return result.nodes;
 }
